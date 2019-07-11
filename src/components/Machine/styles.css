@@ -1,0 +1,56 @@
+.machine-list {
+
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto 0;
+    padding: 0;
+    
+}
+
+.machine-list article{
+
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;  
+
+}
+
+.machine-list article:hover{
+
+    background: #F0F8FF;
+
+
+}
+
+.machine-list article h4 {
+    margin-top: 5px;
+    line-height: 24px;
+    margin-left: 30px; 
+    color: #B0C4DE;
+}
+
+.machine-list article h2 {
+    
+    color: #708090;
+    font-size: 30px;
+    margin-top: 5px;
+    line-height: 24px;
+    margin-left: 10px;
+    margin-right: 40px;
+    
+}
+
+.machine-list article strong {
+    font-size: 30px;
+    margin-top: 5px;
+    line-height: 24px;
+    margin-left: 10px;
+    margin-right: 40px;
+    color: #708090;
+
+
+}
